@@ -1,0 +1,177 @@
+*{
+   margin:0%;
+   padding:0%;
+   box-sizing: border-box;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+html,body{
+   height: 100%;
+   width: 100%;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: none;
+}
+
+#header{
+    height: 15%;
+    width: 100%;
+    background-color: whitesmoke;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+#logo{
+    height: 70%;
+  
+}
+
+#logo img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.text{
+    color: black;
+  
+    display: flex;
+}
+
+.text:hover{
+    background-color: rgb(106, 131, 243);
+}
+
+#contactus{
+   
+    font-weight: light;
+}
+
+#fakeHeader{
+    height: 15%;
+    width: 100%;
+    background-color: rgb(207, 87, 87);
+
+}
+
+.icon{
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.icon:hover{
+    background-color: rgb(106, 131, 243);
+}
+
+#login{
+    padding: 10px;
+    border: 50px;
+    display: flex;
+
+}
+
+#login:hover{
+    background-color: rgb(106, 131, 243);
+}
+
+#try{
+    background-color: aliceblue;
+    padding: 10px 20px;
+
+}
+
+#try:hover{
+    background-color: rgb(106, 131, 243);
+}
+
+
+#page1{
+    height: 85%;
+    width: 100%;
+    background-color: aquamarine;
+}
+
+#strip{
+    width: 100%;
+    height: 8%;
+    background-color: red;
+}
+
+#content{
+    width: 100%;
+    height: 76%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: aquamarine;
+}
+
+#box1{
+    height: 100%;
+    width: 50%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#box2{
+    height: 100%;
+    width: 50%;
+    
+}
+
+#strip2{
+    width: 100%;
+    height: 16%;
+    background-color: rgb(23, 26, 25);
+}
+
+#box1 h1{
+    font-weight: 600;
+    color: black;
+    font-size: 50px;
+    margin:30px  10px;
+    align-content: center;
+}
+
+#box1 h4{
+    font-size: x-large;
+    margin: 10px;
+    font-weight: lighter;
+    margin:30px  10px;
+}
+
+#btns{
+    display: flex;
+    text-align: center;
+    margin: 30px 260px;
+    width: 22%;
+    padding: 10px 20px;
+    color: white;
+    background-color: blue;
+    color: black;
+    border-radius: 5px;
+}
+
+#box1{
+    align-items: center;
+
+}
+
+#btns:hover{
+    background-color: white;
+}
+
+
+#page2{
+    height: 85%;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+}
+
+
+
